@@ -20,7 +20,7 @@
             <input type="text" name="Texto2" disable="enabled" /><br /><br />
             <button>Salir</button><br /><br />
         <hr />
-        <p><a href="../../principal.html">
+        <p><a href="../../index.html">
             Volver a Principal</a></p>
         <p><a href="../acercade.html">
             Acerca de...</a></p>
