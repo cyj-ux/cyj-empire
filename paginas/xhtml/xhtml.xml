@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml111/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>
+            CyJ:xhtml.
+        </title>
+    </head>
+    <style>
+    </style>
+    <body style="background-color:lightgreen;">
+        <h1>
+            Página para xhtml y xml.
+        </h1>
+        <hr />
+            Escribimos estas líneas y <br />
+            probamos xml. <br />
+
+            <input type="text" name="Texto1" disable="disabled" /><br /><br />
+            <input type="text" name="Texto2" disable="enabled" /><br /><br />
+            <button>Salir</button><br /><br />
+        <hr />
+        <p><a href="../../principal.html">
+            Volver a Principal</a></p>
+        <p><a href="../acercade.html">
+            Acerca de...</a></p>
+    </body>    
+</html>

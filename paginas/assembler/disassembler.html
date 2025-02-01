@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CyJ:PaginaTres.
+        </title>
+    </head>
+    <style>
+    </style>
+    <body style="background-color:lightgrey;">
+        <h1 style="color:blue;">
+            Commandos para desemsamblar archivos
+            </h1><br>
+            <hr>
+                <p>comando objdump:</p>
+                <p>
+                objdump -drwC -Matt,i8086 foo.o > foo.dump<br>
+                # desemsambla en 16 bits, sólo archivos objeto
+                y lo vuelca a un archivo .dump<br><br>
+                objdump -drwC -m i8086 foo.o<br>
+                # desemsambla en 16 bits, sólo archivos objeto 
+                y lo imprime en pantalla<br><br>
+                objdump -D -Matt,i8086 -b binary -m i386 foo.bin<br>
+                # para código de 16 bits<br><br>
+                objdump -D -Matt,i386 -b binary -m i386 foo.bin<br>
+                # para código de 32 bits<br><br>
+                objdump -D -Matt,x86-64 -b binary -m i386 foo.bin<br>
+                # para código de 64 bits<br><br>
+                objdump -D -Matt,i8086 foo.bin<br>  
+                # disemsambla el archivo entero.<br><br>
+                objdump -d -Matt,i8086 foo.bin<br> 
+                # disemsambla sólo las partes de código<br><br>
+                objdump -D -b binary -mi386 -Maddr16,data16 foo.o<br>
+                # desemsambla con addr y data<br><br>
+
+                </p>
+        <hr>
+        <p><a href="file:///C:/Users/joputada/Desktop/html/principal.html">
+            Volver a Principal</a></p>
+        <p><a href="file:///C:/Users/joputada/Desktop/html/acercade.html">
+            Acerca de...</a></p>
+    </body>    
+</html>
